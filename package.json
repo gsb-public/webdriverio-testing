@@ -1,0 +1,30 @@
+{
+  "name": "gsb-devicetest-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "android.browser": "./node_modules/.bin/wdio ./config/wdio.android.browser.conf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.14.2",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-chromedriver-service": "^5.0.0",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-screenshot": "^0.6.0",
+    "wdio-visual-regression-service": "^0.9.0"
+  },
+  "bundledDependencies": [
+    "webdriverio",
+    "wdio-appium-service",
+    "wdio-chromedriver-service",
+    "wdio-dot-reporter",
+    "wdio-mocha-framework",
+    "wdio-screenshot",
+    "wdio-visual-regression-service"
+  ]
+}
